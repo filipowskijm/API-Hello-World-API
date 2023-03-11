@@ -19,6 +19,7 @@ app.get('/', (req, res) => {
 })
 
 // Languages: 
+// GET localhost:3000/languages/english
 const languagesController = require('./controllers/languages_controller.js')
 app.use('/languages', languagesController)
 
